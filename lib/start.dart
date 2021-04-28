@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_example/examples/randomColorDependency.dart';
+import 'package:flutter_example/examples/roundListView.dart';
 import 'datas/data.dart';
 import 'examples/randomColorPrimaries.dart';
 import 'examples/reorderlistview.dart';
@@ -19,6 +20,7 @@ void main() {
       '/randomColorPrimaries': (context) => randomColorPrimaries(),
       '/randomColorARGB': (context) => randomColorARGB(),
       '/randomColorDependency': (context) => randomColorDependency(),
+      '/roundListView': (context) => roundListView()
     },
   ));
 }

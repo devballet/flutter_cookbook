@@ -21,6 +21,7 @@ List<data> getExampleList() {
       .add(new data(5, 'randomColorARGB', 'randomColorARGB', 'gridview'));
   exampleList.add(new data(
       6, 'randomColorWithDependency', 'randomColorDependency', 'gridView'));
+  exampleList.add(new data(7, 'roundListView', 'roundListView', 'listview'));
 
   return exampleList;
 }

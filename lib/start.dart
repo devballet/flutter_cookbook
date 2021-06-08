@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_example/examples/animationBeginner.dart';
 import 'package:flutter_example/examples/randomColorDependency.dart';
 import 'package:flutter_example/examples/roundListView.dart';
 import 'datas/data.dart';
@@ -7,6 +8,7 @@ import 'examples/reorderlistview.dart';
 import 'examples/underlineTextStyle.dart';
 import 'examples/randomColorARGB.dart';
 import 'examples/randomColorDependency.dart';
+import 'examples/seperatorInListview.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -20,7 +22,9 @@ void main() {
       '/randomColorPrimaries': (context) => randomColorPrimaries(),
       '/randomColorARGB': (context) => randomColorARGB(),
       '/randomColorDependency': (context) => randomColorDependency(),
-      '/roundListView': (context) => roundListView()
+      '/roundListView': (context) => roundListView(),
+      '/seperatorInListview': (context) => seperatorInListview(),
+      '/animationBeginner': (context) => animationBeginner(),
     },
   ));
 }

@@ -22,6 +22,10 @@ List<data> getExampleList() {
   exampleList.add(new data(
       6, 'randomColorWithDependency', 'randomColorDependency', 'gridView'));
   exampleList.add(new data(7, 'roundListView', 'roundListView', 'listview'));
+  exampleList.add(new data(
+      8, 'seperatorInListview', 'seperatorInListView', 'seperatorbuilder'));
+  exampleList
+      .add(new data(9, 'animationBeginner', 'animationBeginner', 'animation'));
 
   return exampleList;
 }
